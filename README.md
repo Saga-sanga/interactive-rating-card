@@ -99,7 +99,7 @@ button.addEventListener('click', () => {
     ratingElement.innerText = `You selected ${selectedRank} out of 5`;
     thankYouSection.style.display = "grid";
   } else {
-    alert("Please select a ranting!");
+    alert("Please select a rating!");
   }
 });
 ```
